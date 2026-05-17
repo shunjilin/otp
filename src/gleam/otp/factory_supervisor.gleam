@@ -378,7 +378,7 @@ fn make_timeout(amount: Int) -> Timeout
 
 /// Create a `ChildSpecification` that adds this supervisor as the child of
 /// another, making it fault tolerant and part of the application's supervision
-/// tree. You should prefer to starting unsupervised supervisors with the
+/// tree. You should prefer this to starting unsupervised supervisors with the
 /// `start` function.
 ///
 /// If any child fails to start the supervisor first terminates all already
