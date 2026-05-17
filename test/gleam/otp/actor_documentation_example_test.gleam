@@ -82,7 +82,7 @@ fn handle_message(
   case message {
     // For the `Shutdown` message we return the `actor.stop` value, which causes
     // the actor to discard any remaining messages and stop.
-    // We may chose to do some clean-up work here, but this actor doesn't need
+    // We may choose to do some clean-up work here, but this actor doesn't need
     // to do this.
     Shutdown -> actor.stop()
 
